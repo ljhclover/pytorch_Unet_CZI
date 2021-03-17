@@ -1,0 +1,12 @@
+python inference.py -m ./data/checkpoints/epochGF_1_38.pth -i ./data/test/input -o ./data/test/output
+python inference.py -m ./data/checkpoints/epoch_25.pth -i ./data/test/input -o ./data/test/output
+python inference.py -m ./data/checkpoints/epoch_45.pth -i ./data/test/input -o ./data/test/output
+python inference.py -m ./data/checkpoints/epoch_40.pth -i ./data/test/input -o ./data/test/output
+python inference.py -m ./data/checkpoints/epoch_06_Norm_51.pth -i ./data/test/input -o ./data/test/output
+
+python inference.py -m ./data/checkpoints/epoch_04_42.pth -i ./data/test/input -o ./data/test/output
+python inference_speccolor.py -m ./data/checkpoints/epoch_7.pth -i ./data/test/input -o ./data/test/output
+python inference_speccolor.py -m ./data/checkpoints/epoch_50.pth -i ./data/test/input -o ./data/test/output
+
+python inference.py -m ./data/checkpoints/epoch_03_50.pth -i ./data/test/input -o ./data/test/output
+python inference_speccolor.py -m ./data/checkpoints/epoch_03_83.pth -i ./data/test/input -o ./data/test/output
